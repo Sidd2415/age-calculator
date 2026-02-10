@@ -45,4 +45,3 @@ function ageCalculator()  {
 
     output.innerHTML = `Your age is ${year} years and ${month} months ${day} days`
 }
-
