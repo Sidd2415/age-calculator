@@ -1,0 +1,87 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main Container */
+body > * {
+    text-align: center;
+}
+
+/* Wrapper Box */
+h1, input, button, p {
+    display: block;
+    margin: 15px auto;
+}
+
+/* Card Style */
+body {
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* Date Input */
+input[type="date"] {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    color: #764ba2;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+button:hover {
+    background: #ffd369;
+    color: black;
+    transform: translateY(-3px);
+}
+
+/* Click */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Result */
+#display {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
